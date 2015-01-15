@@ -1,3 +1,8 @@
+.project p {
+    font-variant: small-caps;
+    font-size: 150%;
+}
+
 /* applies to anything of class "example-class-selector" */
 .example-class-selector {
 	margin-top: 2em;

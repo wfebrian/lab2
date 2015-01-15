@@ -7,6 +7,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- this is a comment in HTML -->
 
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/introHCI.css" rel="stylesheet">
+
+	<!-- import CSS -->
+	<link href="css/introHCI.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -16,68 +24,74 @@
 </head>
 
 <body>
-	<div>
+	<div class="container">
 		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
 		<!-- p means paragraph -->
-		<div>
+		<div class="jumbotron">
 			<h1>Wesley Febrian</h1>
 			<p>undergraduate student in computer science &middot; university of california, san diego</p>
-			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
+			<p>human-computer interaction &middot; photography &middot; software engineering</p>
 		</div>
 
 
-		<h4>Projects</h4>
+		<h4>Photo Projects</h4>
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
 		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
-		<div id="project1">
+		<div class="project" id="project1">
 			<a href="project.html">
-				<img src="images/lorempixel.people.1.jpeg" alt="Lorem Pixel image">
-				<p>Waiting in Line</p>
+				<img src="images/runofthemill.JPG" alt="Lorem Pixel image" class="img" width = "70%" height = "70%">
+				<p>Run-of-the-Mill</p>
 			</a>
 		</div>
-		<div id="project2">
+		<div class="project" id="project2">
 			<a href="project.html">
-				<img src="images/lorempixel.city.1.jpeg" alt="Lorem Pixel image">
-				<p>Needfinding</p>
+				<img src="images/upintheair.JPG" alt="Lorem Pixel image" class="img" width = "70%" height = "70%">
+				<p>Up in the Air</p>
 			</a>
 		</div>
-		<div id="project3">
+		<div class="project" id="project3">
 			<a href="project.html">
-				<img src="images/lorempixel.technics.1.jpeg" alt="Lorem Pixel image">
-				<p>Prototyping</p>
+				<img src="images/travel.JPG" alt="Lorem Pixel image" class="img" width = "70%" height = "70%">
+				<p>Travel</p>
 			</a>
 		</div>
-		<div id="project4">
+		<div class="project" id="project4">
 			<a href="project.html">
-				<img src="images/lorempixel.abstract.1.jpeg" alt="Lorem Pixel image">
-				<p>Heuristic Evaluation</p>
+				<img src="images/beaches.jpg" alt="Lorem Pixel image" class="img" width = "70%" height = "70%">
+				<p>Run-of-the-Mill</p>
 			</a>
 		</div>
-		<div id="project5">
+		<div class="project" id="project5">
 			<a href="project.html">
-				<img src="images/lorempixel.abstract.8.jpeg" alt="Lorem Pixel image">
-				<p>Visualization</p>
+				<img src="images/nature.JPG" alt="Lorem Pixel image" class="img" width = "70%" height = "70%">
+				<p>Beaches</p>
 			</a>
 		</div>
-		<div id="project6">
+		<div class="project" id="project6">
 			<a href="project.html">
-				<img src="images/lorempixel.people.2.jpeg" alt="Lorem Pixel image">
-				<p>Social design</p>
+				<img src="images/animal.jpg" alt="Lorem Pixel image" class="img" width = "70%" height = "70%">
+				<p>Animal</p>
 			</a>
 		</div>
-		<div id="project7">
+		<div class="project" id="project7">
 			<a href="project.html">
-				<img src="images/lorempixel.technics.2.jpeg" alt="Lorem Pixel image">
-				<p>Gestural interaction</p>
+				<img src="images/monochrome.jpg" alt="Lorem Pixel image" class="img" width = "70%" height = "70%">
+				<p>Monochrome</p>
 			</a>
 		</div>
-		<div id="project8">
+		<div class="project" id="project8">
 			<a href="project.html">
-				<img src="images/lorempixel.city.2.jpeg" alt="Lorem Pixel image">
-				<p>Design tools</p>
+				<img src="images/solitude.jpg" alt="Lorem Pixel image" class="img" width = "70%" height = "70%">
+				<p>Solitude</p>
 			</a>
 		</div>
 	</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<!-- Include all compiled plugins (blelow), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>
